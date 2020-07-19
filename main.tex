@@ -1,0 +1,285 @@
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[utf8x]{inputenc}
+\usepackage{comment}
+
+\hypersetup{%
+  colorlinks=false,% hyperlinks will be black
+  linkbordercolor=red,% hyperlink borders will be red
+  pdfborderstyle={/S/U/W 1}% border style will be underline of width 1pt
+}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{#2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\resumeSubheadingex}[8]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+      \textit{\small#7} & \textit{\small #8} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{}{\Large Rajesh Bachu}} & Email : {rb@rajeshbachu.com}\\
+  {}{}{\textit{Im Gloegglihof 11,}} &  {rajeshbachu99@gmail.com}\\
+  {}{}{\textit{4125, Riehen - Switzerland}} & Mobile : +41 (0)77 902 70 58 \\
+  & Website: {\href{https://www.rajeshbachu.com}{www.rajeshbachu.com}}\\
+\end{tabular*}
+%-----------Summary-----------------
+%\section{Summary}
+%  \ blah blah rajesh
+
+%-----------Summary-----------------
+\section{Summary}
+\resumeItemListStart
+\item A customer obsessed engineer with 5 Years of experience in developing and Architecting enterprise level large scale multi-tier solutions that require complex Architectural decisions.
+\item Earned reputation in every project I worked with for exceptional quality of work with constant look on security and cost-optimization.
+\item Result oriented approach with Exceptional leadership and interpersonal skills.
+\item Excellent communication, interpersonal, analytical and presentation skills.
+\item Successfully performed Leadership, Project Management and Technical Pre-sales roles.
+\item Extensive experienced defining IT Roadmap, cloud strategy, Enterprise/solution architecture and Architecture assessment.
+\item Confident and dedicated Technology Leader with career-long record of promotions, stakeholder satisfaction, team-building experiences and strategic insight.
+\item Hands-on experience with deep knowledge on implementing Cloud Solutions using various AWS Services.
+\item Experience in risk assessment, Business Continuity and Disaster Recovery Planning.
+\item Expertise in DevOps, Configuration Management, Cloud Infrastructure and Automation. 
+\item Worked on infrastructure with Docker containerization orchestrated with Kubernetes.
+\item Designing and deploying scalable, highly available, secured and fault tolerant systems on AWS.
+\item Identifying appropriate use of AWS Architectural best practices. 
+\item Estimating AWS costs and identifying cost control mechanisms.
+\item Continuous Integration Tools: Jenkins.
+\item Source Code Management tools such as SVN, GIT, BitBucket and GitLab.
+\resumeItemListEnd
+
+%-----------Skills-----------------
+\section{Skills}
+% \usepackage{graphicx}
+\setlength{\tabcolsep}{12pt}
+\begin{table}[h]
+
+\centering
+\begin{tabular}{ccc}
+Python              & Ansible         & Terraform  \\
+Docker              & Containers      & Kubernetes \\
+Amazon Web Services & Cloud Computing & Splunk     \\
+Databricks          & Apache Spark    
+\end{tabular}
+\end{table}
+
+
+
+%-----------Certifications-----------------
+\section{Certifications}
+\resumeItemListStart
+\item AWS Certified Security - Speciality
+\item AWS Certified Solutions Architect - Professional     
+\item AWS Certified SysOps Administrator - Associate
+\item Microsoft Certified: Azure Administrator Associate
+\item AWS Certified Solutions Architect - Associate
+\resumeItemListEnd
+%-----------Honor & Awards-----------------
+\section{Honor \& Awards}
+\resumeItemListStart
+\item AWS Guru of the Week - Worldwide competition conducted by \href{https://acloud.guru}{A Cloud Guru.} \href{https://youtu.be/V1KpO7Z0MnE?t=180}{Link to video}
+\item Most Valuable Professional - 8K Miles for three consecutive years for going above and beyond the role.
+\resumeItemListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {McBitss GmbH}{Basel, Switzerland}
+      {Associate Consultant}{April 2019 - Present}
+      \resumeItemListStart
+        \resumeItem{}
+          {Design, Architecture and Automation of Datalake Creation through Ansible, Python and Jenkins}
+        \resumeItem{}{Creation of Continuous Integration, Continuous Delivery & Continuous Deployment pipelines for both Infrastructure Provisioning and Application Deployments}
+        \resumeItem{}{Automation of Infrastructure using Ansible}
+        \resumeItem{}{Configuration of Monitoring, Alerting and Visualization stack for a container platform using Prometheus, Alertmanager and Grafana}
+        \resumeItem{}{Implementation of Single Sign On for all the applications in the organization using Okta}
+        \resumeItem{}{Installation of OpenShift Container Platform 4.x using IPI method}
+        \resumeItem{}{Streaming of Desktop applications using Amazon Appstream 2.0}
+    
+        
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {8K Miles}{Hyderabad, India}
+      {Cloud Engineer}{March 2016 - March 2019}
+     
+      \resumeItemListStart
+        \resumeItem{}{Providing Engineering and Operational Services to a top multi-national enterprise Pharmaceutical Company}
+        \resumeItem{}
+          {Design, Code and implementation of Enterprise infrastructure on AWS meeting the business requirements, standards and compliance in alignment with Information Security and Risk Management Team}
+        \resumeItem{}
+          {Infrastructure as a Code using AWS Cloud Formation, and Python SDK}
+        \resumeItem{}{Automation of AWS account configuration by creating/configuring services like IAM, CloudTrail, Config, KMS, VPCs, Subnets, S3, Security groups, Route tables, RDS Parameter groups, option groups, ENI reservations, VPC Flow logs etc using Python SDK and Cloud Formation templates}
+        \resumeItem{}{Developed an end to end solution for enterprise infrastructure monitoring using CloudWatch, CloudTrail, CloudFormation, Lambda and Python SDK}
+        \resumeItem{}{Automation of AWS Cost and Usage Report data ingestion from S3 to Redshift Cluster on monthly basis which gives as a input to Tableau/AWS Quick Sight for Cost Analysis}
+        \resumeItem{}{Securing Infrastructure by following Industry best practices using IAM Roles, S3 bucket policies etc}
+        \resumeItem{}{Knowledge on configuring HA Splunk Enterprise by decoupling nodes for master, search, deployer, indexer and forwarder. Log analysis using Splunk Search Processing Language (SPL)}
+        \resumeItem{}{Implementation of automated EBS snapshot scheduler using Lambda, Python and Cloud Formation}
+        \resumeItem{}{Implemented a solution for federated API and CLI access to AWS using SAML 2.0 and AD FS}
+        \resumeItem{}{Policy Based management of 22 AWS Accounts using AWS Organizations}
+        \resumeItem{}{Enabled AWS GuardDuty across all AWS Accounts to detect threats and continuously monitor for malicious or unauthorized behavior}
+        \resumeItem{}{Automation of ECS \& ECR in a CI CD Fashion}
+        \resumeItem{}{Experience in using Tortoise SVN as Source Code Management repository}
+        \resumeItem{}{Leveraging AWS SDKs to interact with AWS services from the application}
+        \resumeItem{}{Knowledge in implementing code-level application security (IAM roles, credentials, encryption, etc.)}
+        \resumeItem{}{Experience in deploying, managing, and operating scalable, highly available, and fault tolerant systems on AWS}
+        \resumeItem{}{Knowledge in implementing and controlling the flow of data to and from AWS}
+        \resumeItem{}{Identifying appropriate use of AWS operational best practices}
+        \resumeItem{}{Estimating AWS usage costs and identifying operational cost control mechanisms}
+        \resumeItem{}{Knowledge of troubleshooting issues on AWS services}
+        \resumeItem{}{Project tracking through Scrum Methodology. Software used: JIRA}
+        \resumeItem{}{Knowledge in Problem Management, Incident Management and Request Management}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Actifio}{Hyderabad, India}
+      {Master Thesis Intern}{Jan 2015 - March 2015}
+      \resumeItemListStart
+        \resumeItem{}
+          {Developed a framework to migrate and replicate Actifio's VMWare Virtual Machines to Amazon EC2.}
+        \resumeItem{}{Automation done using Python SDK for AWS}
+        
+      \resumeItemListEnd
+
+    
+  \resumeSubHeadingListEnd
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Blekinge Institute of Technology}{Karlskrona, Sweden}
+      {Master of Science in Computer Science}{Jan. 2014 -- Jan. 2016}
+    \resumeSubheading
+      {JNTUH College of Engineering, University Campus}{Hyderabad, India}
+      {Bachelor of Technology in Computer Science \& Engineering}{Oct. 2010 -- Dec. 2013}
+  \resumeSubHeadingListEnd
+%-----------Recommendations-----------------
+\section{Recommendations}
+
+\item Available on \href{https://www.linkedin.com/in/rajeshbachu/}{LinkedIn profile.}
+
+%-----------References-----------------
+%\section{References}
+%\resumeItemListStart
+%\item Denis Divoux - Program Manager: Public Cloud Services at Novartis. %denis.divoux@novartis.com
+%\item Gautham Gurumurthy - Technical Program Manager at 8K Miles. %gautham.gurumurthy@8kmiles.com
+
+%  \section{}
+%    \centering{This document is a typeset using \LaTeX}
+
+
+%-----------PROJECTS-----------------
+%\section{Projects}
+%  \resumeSubHeadingListStart
+%    \resumeSubItem{QuantSoftware Toolkit}
+%      {Open source python library for financial data analysis and machine learning for finance.}
+%    \resumeSubItem{Github Visualization}
+%      {Data Visualization of Git Log data using D3 to analyze project trends over time.}
+%    \resumeSubItem{Recommendation System}
+%      {Music and Movie recommender systems using collaborative filtering on public datasets.}
+%    \resumeSubItem{Mac Setup}
+%      {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+%  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+\begin{comment}
+Maulik Shah is in his 13th year overall and 3rd year as a Senior Manager with Deloitte Consulting’s Analytic & Cognitive Practice, with primary focus on Big Data Modernization and Cloud Migration. As a hands-on Senior Manager and Architect, Maulik has managed and led end-to-end enablement of several large-scale (multi peta-byte, several simultaneous use-cases, large global/remote teams) DW/Data Lake/Data-as-a-Service and Cloud Native technology programs, from concept definition to implementation to operation and maintenance, for his clients he serves in Healthcare and Life Sciences industries.
+
+Maulik is client-service and end-result focused leader, with a proven track-record of 13 years of professional services delivery excellence. He has exceeded year-end performance metrics and goals, including but not limited to managed revenue and primary sales, and has been consistently recognized with the highest year-end performance ratings in each of his 13 years with Deloitte Consulting.
+
+Maulik is highly motivated and quick learner of new data/architecture patterns and frameworks, having advised c-level executives on evolving technology landscape and value to business, and partnered with large teams of technology colleagues to architect, design, develop, implement and operate sustainable and scalable technology solutions. He has passed several industry recognized exams/certifications and continues to learn and grow:
+
+1. Business Analytics, Kelley School of Business
+2. AWS Developer
+3. AWS Solutions Architect Associate
+4. AWS SysOps
+5. Scrum Master
+6. AWS BigData Specialist
+7. AWS Cloud Practitioner
+8. AWS Solutions Architect Pro
+9. AWS DevOps Pro (scheduled)
+10. AWS Machine Learning (scheduled)
+11. Microsoft Azure Architect (considering)
+12. Google Cloud Architect (considering)
+
+Maulik has a Master’s in Computer Science and Bachelor’s in Information Technology. He is married and has a son. 
+\end{comment}
+%-------------------------------------------
+
+\end{document}
